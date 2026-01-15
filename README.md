@@ -13,6 +13,9 @@ Install dependencies:
 ```bash
 pip install trueskill
 ```
+## Full Example
+
+See `example_quick_start_trueskill.py` for complete integration with rlgym-learn training loop.
 
 ## Quick Start
 
@@ -97,7 +100,3 @@ EvalRunner(
 ## Key: obs_builder and action_parser MUST match training config
 
 If eval uses different obs/action than training, the policy will produce garbage outputs.
-
-## Full Example
-
-See `example_quick_start_trueskill.py` for complete integration with rlgym-learn training loop.
